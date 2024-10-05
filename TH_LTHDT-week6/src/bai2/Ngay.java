@@ -10,8 +10,9 @@ public class Ngay {
         this.thang = thang;
         this.nam = nam;
     }
+
     @Override
-    public String toString(){
-        return ngay+"/"+thang+"/"+nam;
+    public String toString() {
+        return ngay + "/" + thang + "/" + nam;
     }
 }
