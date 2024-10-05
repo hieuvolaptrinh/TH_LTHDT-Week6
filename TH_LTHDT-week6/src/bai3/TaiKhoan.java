@@ -16,7 +16,7 @@ public class TaiKhoan {
     public void guiTien(double soTien) {
         if (soTien > 0) {
             this.soDu += soTien;
-            System.out.println("Đã gửi " + soTien + " vào tài khoản. Số dư hiện tại: " + soDu);
+//            System.out.println("Đã gửi " + soTien + " vào tài khoản. Số dư hiện tại: " + soDu);
         } else {
             System.out.println("Số tiền gửi không hợp lệ.");
         }
@@ -26,7 +26,7 @@ public class TaiKhoan {
     public void rutTien(double soTien) {
         if (soTien > 0 && soTien <= this.soDu) {
             this.soDu -= soTien;
-            System.out.println("Đã rút " + soTien + " từ tài khoản. Số dư hiện tại: " + soDu);
+//            System.out.println("Đã rút " + soTien + " từ tài khoản. Số dư hiện tại: " + soDu);
         } else if (soTien > this.soDu) {
             System.out.println("Số dư không đủ để rút tiền.");
         } else {
