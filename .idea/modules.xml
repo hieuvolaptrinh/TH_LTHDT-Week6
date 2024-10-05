@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/TH_LTHDT-Week6.iml" filepath="$PROJECT_DIR$/.idea/TH_LTHDT-Week6.iml" />
-      <module fileurl="file://$PROJECT_DIR$/TH_LTHDT-week6/TH_LTHDT-week6.iml" filepath="$PROJECT_DIR$/TH_LTHDT-week6/TH_LTHDT-week6.iml" />
-      <module fileurl="file://$PROJECT_DIR$/TH_LTHDT-week6/src/TH_LTHDT-week61.iml" filepath="$PROJECT_DIR$/TH_LTHDT-week6/src/TH_LTHDT-week61.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TH_LTHDT-week6.iml" filepath="$PROJECT_DIR$/TH_LTHDT-week6.iml" />
     </modules>
   </component>
 </project>
