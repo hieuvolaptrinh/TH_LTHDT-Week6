@@ -3,21 +3,21 @@ package bai2;
 import java.util.Calendar;
 import java.util.Scanner;
 
-public class bai2_SV implements  Comparable<bai2_SV>{
+public class SinhVien implements  Comparable<SinhVien>{
     Scanner sc = new Scanner(System.in);
     private String maSV;
     private String hoTen;
     private Calendar ngaySinh;
     private float diemTB;
 
-    public bai2_SV(String maSV, String hoTen, Calendar ngaySinh, float diemTB) {
+    public SinhVien(String maSV, String hoTen, Calendar ngaySinh, float diemTB) {
         this.maSV = maSV;
         this.hoTen = hoTen;
         this.ngaySinh = ngaySinh;
         this.diemTB = diemTB;
     }
 
-    public bai2_SV() {
+    public SinhVien() {
     }
 
     public String getMaSV() {
@@ -65,8 +65,8 @@ public class bai2_SV implements  Comparable<bai2_SV>{
         System.out.println("Nhap ngay sinh: ");
         int ngay = sc.nextInt();
         sc.nextLine();
-        this.ngaySinh= Calendar.getInstance(); // đối tượng calendar sẽ chứa thông tin ngày, tháng, năm, giờ, phút, giây hiện tại.
-        this.ngaySinh.set(nam, thang - 1, nam);  // Tháng tính từ 0, nên phải trừ 1
+        this.ngaySinh= Calendar.getInstance();
+        this.ngaySinh.set(nam, thang - 1, ngay);  // Tháng tính từ 0, nên phải trừ 1
         System.out.println("Nhap diem trung binh: ");
         this.diemTB = sc.nextFloat();
     }
@@ -79,7 +79,7 @@ public class bai2_SV implements  Comparable<bai2_SV>{
     }
 
     @Override
-    public int compareTo(bai2_SV o) {
+    public int compareTo(SinhVien o) {
         return Float.compare(this.diemTB, o.diemTB);
     }
 }

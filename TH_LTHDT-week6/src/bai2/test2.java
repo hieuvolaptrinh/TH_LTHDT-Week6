@@ -1,24 +1,22 @@
 package bai2;
 
 import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
 import java.util.Scanner;
 
 public class test2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        ArrayList<bai2_SV> dsSV= new ArrayList<>();
+        ArrayList<SinhVien> dsSV= new ArrayList<>();
         System.out.println("Nhap so sinh vien: ");
         int n = sc.nextInt();
         for( int i=0;i<n;i++){
-            bai2_SV sv = new bai2_SV();
+            SinhVien sv = new SinhVien();
             System.out.println("nhập thông tin sinh viên thu" + (i+1));
             sv.nhapThongTin();
             dsSV.add(sv);
         }
         System.out.println("danh sách sinh viên vừa nhập là ");
-        for(bai2_SV sv1:dsSV){
+        for(SinhVien sv1:dsSV){
             sv1.inThongTin();
         }
         System.out.println("sắp xếp danh sách sinh viên có ddiem tăngs dần là ");
@@ -37,7 +35,7 @@ public class test2 {
 //                else return -1;
 //            }
 //        });
-        for(bai2_SV sv1:dsSV){
+        for(SinhVien sv1:dsSV){
             sv1.inThongTin();
         }
     }
