@@ -7,9 +7,24 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "hieuvolaptrinh"
+  }
 }]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/hieuvolaptrinh/TH_LTHDT-Week6.git",
+    "accountId": "ee223c81-7ab9-433a-a402-0c8a38f61e8e"
+  }
+}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2mvDPuOrpT70UUGPxp4Gzq6GAAx" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -18,7 +33,9 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "hieu-bt",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/OneDrive - University of Technology and Education/Dai_hoc/2024-2025/th lthdt/tuan6/tuan66/TH_LTHDT-Week6/TH_LTHDT-week6",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
@@ -40,6 +57,7 @@
       <option name="presentableId" value="Default" />
       <updated>1727948137741</updated>
       <workItem from="1727948138777" duration="5000" />
+      <workItem from="1728315519864" duration="49000" />
     </task>
     <servers />
   </component>
