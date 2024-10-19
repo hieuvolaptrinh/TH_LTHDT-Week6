@@ -5,6 +5,8 @@ import java.util.Scanner;
 public class test3 {
     public static void main(String[] args) {
         bai3_TKNganHang tk = new bai3_TKNganHang();
+//        bai3_TKNganHang tk2 = new bai3_TKNganHang("123456789", "Nguyễn Văn A");
+//        System.out.println(tk2.getSoTK());
         Scanner sc = new Scanner(System.in);
         System.out.println("nhập số tài khoản");
         tk.setSoTK(sc.nextLine());

@@ -10,7 +10,11 @@ public class bai3_TKNganHang {
         this.chuTk = chuTk;
         this.soTK = soTK;
     }
+    public bai3_TKNganHang( String chuTk, String soTK) {
 
+        this.chuTk = chuTk;
+        this.soTK = soTK;
+    }
     public bai3_TKNganHang() {
     }
 
