@@ -1,3 +1,5 @@
+package bai3;
+
 import java.util.Scanner;
 
 public class Main_Vo_Nguyen_Dai_Hieu {
